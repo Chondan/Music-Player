@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <audio src="./assets/The 1975It's Not Living (If It's Not With You) Lyrics.mp3"></audio>
+    <div class="container">
+        <div class="music-player">
+            <div class="info">
+                <div class="cover-container">
+                    <div id="cover"></div>
+                    <div class="control-button fa fa-play"></div>
+                </div>
+                <div id="song">It's Not Living (If It's Not With You)</div>
+                <div id="artist">The 1975</div>
+            </div>
+            <div class="control">
+                <div id="start-time">0:00</div>
+                <input id="progress-bar" type="range" value="0">
+                <div id="end-time">3:50</div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
