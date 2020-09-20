@@ -4,6 +4,7 @@
         audioElem.currentTime = 0;
         controlBtn.classList.remove("fa-pause");
         controlBtn.classList.add("fa-play");
+        cover.style.webkitAnimationPlayState = "paused";
         isPlay = false;
     }
     function onInput() {
